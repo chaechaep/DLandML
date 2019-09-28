@@ -19,3 +19,6 @@ model.fit(x_data, y_data, epochs=100, batch_size=1)
 loss, acc = model.evaluate(x_data, y_data)
 print("acc : ", acc)
 
+x_test = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
+y_predict = model.predict(x_test)
+
