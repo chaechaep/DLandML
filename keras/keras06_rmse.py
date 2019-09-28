@@ -20,7 +20,7 @@ model.add(Dense(1))
 
 # 3. 훈련
 model.compile(loss='mse', optimizer='adam', metrics=['accuracy'])
-model.fit(x_train, y_train, epochs=100)
+model.fit(x_train, y_train, epochs=100, batch_size=1)
 
 # 4. 평가 예측
 loss, acc = model.evaluate(x_test, y_test, batch_size=1)
@@ -35,6 +35,8 @@ def RMSE(y_test, y_predict):
     return np.sqrt(mean_squared_error(y_test, y_predict))
 print("RMSE : ", RMSE(y_test, y_predict))
 
+from sklearn.metrics import r2_score
+print("r2score : ", r2_score(y_test, y_predict))
 
 
 

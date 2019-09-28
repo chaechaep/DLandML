@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a355d6f9-b1b8-43db-b065-e18ecf869b4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/csv/data-01-test-score.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/data-03-diabetes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/data-04-zoo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/du_test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/du_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/predict_before.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/predict_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/predict_date.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/sample.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/sample_80.09.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/sample_80.091.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/sample_80.82.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/sample_80.97.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/sample_80.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/sample_81.18.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/sample_81.19.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/train_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/원본/predict_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/원본/predict_date.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/원본/sample.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/hackerton/원본/train_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/housing.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/iris.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/iris2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/iris3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/pima-indians-diabetes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/sonar.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/wine.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/csv/winequality-white.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/m02_and.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/m03_xor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/m04_pima_indian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/m04_pima_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/m04_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/m05_iris.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/m05_iris_keras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/m06_wine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/m06_wine3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras/keras06_rmse.py" beforeDir="false" afterPath="$PROJECT_DIR$/keras/keras06_rmse.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
