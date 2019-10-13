@@ -19,11 +19,12 @@ x = iris_data.loc[:,["SepalLength","SepalWidth","PetalLength","PetalWidth"]]
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, train_size = 0.8, shuffle = True)
 
 # 그리드 서치에서 사용할 매개 변수 --- (*1)
-parameters = [
-    {"svm__C": [1, 10, 100, 1000], "svm__kernel":["linear"]},
-    {"svm__C": [1, 10, 100, 1000], "svm__kernel":["rbf"], "svm__gamma":[0.001, 0.0001]},
-    {"svm__C": [1, 10, 100, 1000], "svm__kernel":["sigmoid"], "svm__gamma": [0.001, 0.0001]}
-]
+parameters = {
+    "svm__C": [1, 10, 100, 1000], "svm__kernel": ["linear", "rbf", "sigmoid"], "svm__gamma":[0.001, 0.0001]
+    # {"svm__C": [1, 10, 100, 1000], "svm__kernel":["linear"]},
+    # {"svm__C": [1, 10, 100, 1000], "svm__kernel":["rbf"], "svm__gamma":[0.001, 0.0001]},
+    # {"svm__C": [1, 10, 100, 1000], "svm__kernel":["sigmoid"], "svm__gamma": [0.001, 0.0001]}
+}
 
 from sklearn.pipeline import Pipeline
 # from sklearn.pipeline import make_pipeline
