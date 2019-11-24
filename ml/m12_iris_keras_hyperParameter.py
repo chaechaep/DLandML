@@ -72,7 +72,7 @@ def create_hyperparameters(): # 45개의 옵션(batches*optimizers*dropout)을 �
     optimizers = ['rmsprop', 'adam', 'adadelta'] # 용도에 맞게 쓰자.
     dropout = np.linspace(0.1, 0.5, 5)
     epochs = [100, 200, 300, 400, 500]
-    return{"batch_size":batches, "optimizer":optimizers, "epochs":epochs} #, "keep_prob":dropout}
+    return{"batch_size":batches, "optimizer":optimizers, "epochs":epochs, "keep_prob":dropout}
 
 from keras.wrappers.scikit_learn import KerasClassifier # 사이킷런과 호환하도록 함. (mnist에서 쓸듯)
 # from keras.wrappers.scikit_learn import KerasRegressor # 사이킷런의 교차검증을 keras에서 사용하기 위해 wrapping함
